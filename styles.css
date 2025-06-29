@@ -1,0 +1,161 @@
+body {
+    background: linear-gradient(white, #a795ac);
+    font-family: "Kavoon", serif;
+    color: #e05959;
+    text-shadow: 2px 2px 1px black;
+    text-align: center;
+}
+
+#header {
+    text-shadow: none;
+}
+
+#header h1 {
+    font-size: 4rem;
+    text-shadow: 4px 4px 1px black;
+}
+
+#anon-img {
+    width: 16vw;
+    height: 24vh;
+    border-radius: 50%;
+    border: 4px solid #e05959;
+
+}
+
+.portal-section {
+    width: 95vw;
+    height: 95vh;
+}
+
+.portal-container {
+    width: 65%;
+    height: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.portal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("img/curtains_closed_cropped.webp");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portal-header {
+    font-size: 2.5rem;
+}
+
+#portal-1:hover {
+    background-image: url("img/curtains_open_cropped.webp");
+}
+
+
+#gif-in-portal-1 {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-image: url("img/bruh.webp");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#gif-in-portal-2 {
+    width: 101%;
+    height: 102%;
+    position: absolute;
+    top:0;
+    left:-1%;
+ 
+    background-image: url("img/portal1.gif");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+#portal-2:hover {
+    background-image: url("img/curtains_open_cropped.webp");
+}
+
+#gif-in-portal-3 {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top:10%;
+    left:10%;
+ 
+    background-image: url("img/excellent.gif");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#portal-3:hover {
+    background-image: url("img/curtains_open_cropped.webp")
+} 
+
+#gif-in-portal-4 {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top:10%;
+    left:10%;
+ 
+    background-image: url("img/mind_blown.gif");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#portal-4:hover {
+    background-image: url("img/curtains_open_cropped.webp")
+} 
+
+#gif-in-portal-5 {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top:10%;
+    left:10%;
+ 
+    background-image: url("img/children.gif");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#portal-5:hover {
+    background-image: url("img/curtains_open_cropped.webp")
+} 
+
+#gif-in-portal-6 {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top:10%;
+    left:10%;
+ 
+    background-image: url("img/party-time.gif");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#portal-6:hover {
+    background-image: url("img/curtains_open_cropped.webp")
+} 

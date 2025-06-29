@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Style+Script&family=Sunshiney&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <h1>Today is Anon's birthday 🎉</h1>
+            <img id="anon-img" src="img/anonface.webp">
+            <h2 id="bday-age">??? years old</h2>
+            <h4 id="bday-date">June 29th, 2025</h4>
+        </div>
+        <div class="portal-section">
+            <h2 class="portal-header">Here is how happy i am for you 🥳</h2>
+            <div class="portal-container">
+                <div class="portal" id="portal-1"></div>
+                <div id="gif-in-portal-1"></div>
+            </div>
+        </div>        
+
+        <div class="portal-section">
+            <h2 class="portal-header">How people react when you come for a visit 😊</h2>
+            <div class="portal-container">
+                <div class="portal" id="portal-5"></div>
+                <div id="gif-in-portal-5"></div>
+            </div>
+        </div>        
+
+
+        <div class="portal-section">
+            <h2 class="portal-header">How people react when you give a talk 🧠</h2>
+            <div class="portal-container">
+                <div class="portal" id="portal-4"></div>
+                <div id="gif-in-portal-4"></div>
+            </div>
+        </div>     
+
+        <div class="portal-section">
+            <h2 class="portal-header">If I had to describe you with ONE word 👇</h2>
+            <div class="portal-container">
+                <div class="portal" id="portal-3"></div>
+                <div id="gif-in-portal-3"></div>
+            </div>
+        </div>   
+
+        <div class="portal-section">
+            <audio id="audio" src="party_hard.mp3"></audio>
+            <h2 class="portal-header">This one is for you my friend 🥂</h2>
+            <div class="portal-container">
+                <div class="portal" id="portal-6"></div>
+                <div id="gif-in-portal-6"></div>
+            </div>
+        </div>   
+
+    </body>
+    <script>
+    const audio = document.getElementById("audio");
+    const target = document.getElementById("portal-6");
+
+    target.addEventListener("mouseenter", () => audio.play());   // Desktop
+    target.addEventListener("mouseleave", () => audio.pause());
+
+    target.addEventListener("touchstart", (e) => {
+        e.preventDefault(); // Optional: prevent scrolling
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+    }
+    });
+</script>
+</html>
