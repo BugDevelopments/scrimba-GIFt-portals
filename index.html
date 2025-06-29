@@ -64,7 +64,6 @@
     target.addEventListener("mouseleave", () => audio.pause());
 
     target.addEventListener("touchstart", (e) => {
-        e.preventDefault(); // Optional: prevent scrolling
         if (audio.paused) {
             audio.play();
         } else {
